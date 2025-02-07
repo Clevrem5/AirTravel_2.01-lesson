@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 
-import '../../utils/constants.dart';
-import '../customerbox.dart';
+import '../../../utils/constants.dart';
+import '../../../presentation_airtravel_details/features/customerbox.dart';
 
 class SayohatTarkibi extends StatelessWidget {
   const SayohatTarkibi({super.key});

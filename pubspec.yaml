@@ -63,11 +63,13 @@ flutter:
     - assets2/images/offers/
     - assets2/images/places/
     - assets2/images/onboarding/
+    - assets2/images/details/
     - assets2/icons/
 
   fonts:
     - family: Urbanist
       fonts:
+
         - asset: fonts/Urbanist/Urbanist-Regular.ttf
 
           

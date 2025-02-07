@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lesson2_first/presntation_airTravel/travel_item_image.dart';
-import '../utils/constants.dart';
+import 'package:lesson2_first/presentation_airtravel_details/features/travel_item_image.dart';
+import '../../utils/constants.dart';
 
 class CustomerBox extends StatelessWidget {
   const CustomerBox({

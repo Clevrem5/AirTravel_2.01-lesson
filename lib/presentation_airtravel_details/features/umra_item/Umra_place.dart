@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../makka_box.dart';
+import '../../../presentation_airtravel_details/features/makka_box.dart';
 
 class UmraPlace extends StatelessWidget {
   const UmraPlace({super.key});

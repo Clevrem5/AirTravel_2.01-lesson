@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import '../utils/constants.dart';
+import '../../utils/constants.dart';
 import 'data_box.dart';
 
 class TravelItemImage extends StatelessWidget {

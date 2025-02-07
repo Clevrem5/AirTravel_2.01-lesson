@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:lesson2_first/presntation_airTravel/umra_item/sayohat_tarkibi.dart';
-
-import '../utils/constants.dart';
+import 'package:lesson2_first/presentation_airtravel_details/features/umra_item/sayohat_tarkibi.dart';
+import '../../utils/constants.dart';
 import 'customerbox.dart';
 
 class TarifCard extends StatelessWidget {
@@ -27,10 +26,10 @@ class TarifCard extends StatelessWidget {
             color: AppColorsTravel.iconColors,
             borderRadius: BorderRadius.circular(10),
           ),
-          child: Column(
+          child: Column(mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Center(
-                child: Column(
+                child: Column(mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Text(
                       cost,
@@ -71,7 +70,7 @@ class TarifCard extends StatelessWidget {
             width: 64,
             height: 1,
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: Colors.black,
               borderRadius: BorderRadius.circular(5),
             ),
           ),
@@ -79,7 +78,7 @@ class TarifCard extends StatelessWidget {
         Positioned(
           left: 54,
           right: 57,
-          bottom: -2,
+          bottom: 0,
           child: Container(
             width: 16,
             height: 16,
@@ -133,6 +132,19 @@ class TarifCard extends StatelessWidget {
                   fontFamily: "Urbanist",
                 ),
               ),
+            ),
+          ),
+        ),
+        Positioned(
+          top: 10,
+          right: 7,
+          child: Text(
+            "1300\$",
+            style: TextStyle(
+              color: Colors.white.withValues(alpha: 0.75),
+              fontSize: 9,
+              decoration: TextDecoration.lineThrough,
+              decorationColor: Colors.white.withValues(alpha: 0.7),
             ),
           ),
         ),
