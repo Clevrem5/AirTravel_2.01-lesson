@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lesson2_first/presentation_airtravel_details/widgets/home_page_body.dart';
-import 'package:lesson2_first/presentation_airtravel_details/widgets/home_page_bottom.dart';
+import 'package:lesson2_first/pages/homePage/widgets/home_page_item_app_bar.dart';
+import 'package:lesson2_first/pages/onboarding/presentation_airtravel_details/widgets/home_page_body.dart';
+import 'package:lesson2_first/pages/onboarding/presentation_airtravel_details/widgets/home_page_bottom.dart';
 import 'package:lesson2_first/utils/sizes.dart';
-
-import 'homePage/widgets/home_page_item_app_bar.dart';
 
 
 void main() {
